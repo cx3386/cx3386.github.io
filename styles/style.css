@@ -1,0 +1,42 @@
+html {
+    font-size: large;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+img[src] {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid #918080;
+}
+
+a {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: crimson;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 3px grey;
+}
+
+p,
+li {
+    font-size: 16px;
+    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.user-info {
+    text-align: right;
+}
